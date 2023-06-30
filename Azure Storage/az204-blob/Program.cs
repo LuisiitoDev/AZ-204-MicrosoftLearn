@@ -23,17 +23,17 @@ Console.WriteLine("A container named: " + containerName + " was created!!");
 
 // uploading a file to blobs
 string fileName = $"wtfile{Guid.NewGuid()}.txt";
-string localFilePath = Path.Combine("./data/",fileName);
+string localFilePath = Path.Combine("./data/", fileName);
 
 // writing a file
 
-await File.WriteAllTextAsync(localFilePath,"Hello World, Azure Storage");
+await File.WriteAllTextAsync(localFilePath, "Hello World, Azure Storage");
 
 // Getting reference to the blob
 
 var blobClient = containerClient.GetBlobClient(fileName);
 
-Console.WriteLine("Uploading to Blob Storage as blob: "+blobClient.Uri);
+Console.WriteLine("Uploading to Blob Storage as blob: " + blobClient.Uri);
 
 
 // Open file and upload its data
@@ -49,15 +49,16 @@ Console.WriteLine("The file was upload. We will verify by listing");
 
 Console.WriteLine("Listing Blobs...");
 
-await foreach (BlobItem blob in containerClient.GetBlobsAsync()){
+await foreach (BlobItem blob in containerClient.GetBlobsAsync())
+{
     Console.WriteLine("\t" + blob.Name);
 }
 
 // Downloading blobs
 
-string downloadFilePath = localFilePath.Replace(".txt","DONWLOADED.txt");
+string downloadFilePath = localFilePath.Replace(".txt", "DONWLOADED.txt");
 
-Console.WriteLine("Downloading blob to "+downloadFilePath);
+Console.WriteLine("Downloading blob to " + downloadFilePath);
 
 BlobDownloadInfo download = await blobClient.DownloadAsync();
 
@@ -71,6 +72,13 @@ Console.WriteLine("\nLocate the local file in the data directory created earlier
 Console.WriteLine("Deleting blob container");
 
 //await containerClient.DeleteAsync();
+
+// Fetch some container properties and write out their values.
+// var properties = await blobClient.GetPropertiesAsync();
+// Console.WriteLine($"Properties for container {blobClient.Uri}");
+// Console.WriteLine($"Public access level: {properties.Value.PublicAccess}");
+// Console.WriteLine($"Last modified time in UTC: {properties.Value.LastModified}");
+
 
 Console.WriteLine("Finished cleaning up.");
 
