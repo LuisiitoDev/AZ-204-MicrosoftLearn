@@ -1,0 +1,8 @@
+Debido a la inseguridad de tener maquinas virtuales expuestas.
+
+Se recomienda usar Azure Bastion, el cual permite realizar una conexion RDP/SSH sencilla y segura a AzureVM
+directamente desde el browser sin necesidad de una ip publica.
+
+azure bastion se relaciona a un vnet y a todas las maquinas relacionadas a esa vnet
+
+La direccion publica es solo para Azure Bastion

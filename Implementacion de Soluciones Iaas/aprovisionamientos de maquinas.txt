@@ -1,0 +1,23 @@
+USANDO AZURE CLI
+
+- CREANDO UNA MAQUINA VIRTUAL (Basico)
+az vm create --name vm2 --image ubuntults --resource-group curso-az204
+
+- VER TODAS LAS MAQUINAS VIRTUAL DEL RECURSO DE GRUPO
+az vm list --resource-group curso-a204 --output table
+
+
+
+USANDO AZURE POWER SHELL
+
+$username = 'admin'
+$password = ConvertTo-SecureString 'password1234' -AsPlainText -Force
+$WindowCred = New-Object System.Management.Automation.PSCredential ($username, $password)
+
+
+New-AzResourceGroup -Name "curso-a204" -Location "CentralUS"
+
+New-AzVM -ResourceGroupName 'cursp-a204' -Name 'psdemo-win-az' -Image 'Win2019DataCenter' -Credential $WindowCred -OpenPorts 3389
+
+Get-AzPublicIpAdress -ResourceGroupName 'curso-a204' -Name 'psdemo-win-az' | Select-Object IpAddress
+

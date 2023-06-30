@@ -1,0 +1,9 @@
+az acr
+
+
+az acr create --resource-group curso-az204 --name cursoaz204acr --location southcentralus --admin-enabled true --sku Standard
+
+LOGIN
+
+az acr login --name cursoaz204luisacr
+

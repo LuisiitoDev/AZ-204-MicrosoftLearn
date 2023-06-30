@@ -1,0 +1,15 @@
+Se utilizan las plantillas del azure resource manager el cual permite automatizar la creacion de recursos
+
+Son archivos en formato JSON, para que estos sean de forma versionada.
+
+
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "",
+    "apiProfile": "",
+    "parameters": {  },
+    "variables": {  },
+    "functions": [  ],
+    "resources": [  ],
+    "outputs": {  }
+}
