@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageCopy", "StorageCopy\StorageCopy.csproj", "{3CBD150E-54E3-4C82-BB3A-C25E0500CC5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBD150E-54E3-4C82-BB3A-C25E0500CC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBD150E-54E3-4C82-BB3A-C25E0500CC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBD150E-54E3-4C82-BB3A-C25E0500CC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBD150E-54E3-4C82-BB3A-C25E0500CC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E74CC80-A698-4F86-A5AF-8D473808952E}
+	EndGlobalSection
+EndGlobal
