@@ -1,0 +1,63 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+NIVELES DE COHERENCIA DE AZURE COSMOS DB
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+** Coherencia Fuerte (Strong): Garantiza que las lectures devuelven la version mas reciente de un elemento.
+
+** Obsolescencia limitada (Bounded stalenes): Las lecturas pueden ir con retraso respecto a las escrituras de un maximo de "k" versiones o en un intervalo de "T".
+
+** Coherencia Sesion (Session): Garantiza que las lecturas devuelven la version mas reciente de un elemento en un misma sesion.
+
+** Coherencia de prefijo coherente (Prefix Consistency): Asegura que las lecturas realicen un seguimiento de las escrituras en un orden prefijo coherente, pero permitiendo ciertas diferencias en las lecturas simultaneas. 
+
+** Coherencia final (Eventual): forma mas debil no hay garantia de ordenacion para las lecturas. Un cliente puede leer valores que son antiguos.
+
+
+Strong =================> Boundend staleness ============> Session ===============> Consistent prefix ================> Eventual
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+API Admitidas
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* NoSQL (*documentos - clave/valor)
+* MongoDB (*documentos - clave/valor - BSON)
+* PostgreSQL (*datos almacenados en un unico nodo/distribuidos)
+* Apache Cassandra (*columnas)
+* Table (*clave/valor - Azure Table Storage )
+* Apache Gremlin (*Grafos)
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+MODO DE COBRANZA DE AZURE COSMOS DB
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+** Modo rendimiento apovisionado: Se establece una capacidad de rendimiento predefinida para la BD.
+** Modo sin servidor: Bajo el modelo de consumo.
+** Modo de escalabilidad automatica: Permite poder ajustar la capacidad de rendimiento de la BD en funcion de la carga de trabajo.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+CREACION DE BD DESDE AZURE CLI
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+>>> az login
+>>> az group create --name curso-az204 --location eastus
+>>> az cosmosdb create --name luisiitodev-cosmos --resource-group curso-az204
+>>> az cosmosdb keys list --name lusiiitodev-cosmos --resource-group curso-az204
+>>> az cosmosdb show --name lusiitodev-cosmos --resource-group curso-az204
+
+
