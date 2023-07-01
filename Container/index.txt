@@ -1,0 +1,23 @@
+NIVELES DE SERVICIO
+
+** Basico
+** Estandar
+** Premium
+
+
+CARACTERISTICAS AVANZADAS
+
+** Cifrado en reposo
+** Almacenamiento regional
+** Redundancia de zona
+** Almacenamiento escalable
+
+
+
+
+COMANDOS
+
+>>> ECHO FROM mcr.microsoft.com/hello-world > Dockerfile
+>>> az acr build --image sample/hello-world:v1 --registry myacrlusiitodev --file Dockerfile .
+>>> az acr repository show --name myacrlusiitodev --repository sample/hello-world --output table
+>>> az acr run --registry myacrlusiitodev --cmd '$Registry/sample/hello-world:v1' /dev/null
