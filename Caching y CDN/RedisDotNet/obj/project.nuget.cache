@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YjUmdRDhI6EZ79+U0aErJGnIGliShzqweNL3vfNTg4f/ditVbWqOLOjlvfRpcqP6LvIzGWhrFax3I1XuqJy6Dg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Luis Sandoval\\OneDrive\\Escritorio\\AZ204\\Caching y CDN\\RedisDotNet\\RedisDotNet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis Sandoval\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\Luis Sandoval\\.nuget\\packages\\stackexchange.redis\\2.6.116\\stackexchange.redis.2.6.116.nupkg.sha512",
+    "C:\\Users\\Luis Sandoval\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
