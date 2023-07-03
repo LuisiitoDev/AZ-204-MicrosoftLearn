@@ -1,0 +1,11 @@
+Azure Event Grid es un agente de eventos sin servidor, que permite poder integrar aplicaciones mediante eventos.
+
+Hay 5 conceptos de Azure Event Grid
+
+** Eventos: Que ha ocurrido?
+** Origenes de eventos: Donde paso el evento?
+** Temas: Punto de conexion donde los publicadores envian los eventos
+** Suscripciones a eventos: Punto de conexion donde se enrutan los eventos
+** Controladores de eventos: Aplicacion o servicio que reaccion al evento
+
+
