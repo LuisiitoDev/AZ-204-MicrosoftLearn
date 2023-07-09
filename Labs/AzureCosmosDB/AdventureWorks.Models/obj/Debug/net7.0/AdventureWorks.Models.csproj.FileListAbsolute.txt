@@ -1,0 +1,12 @@
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\bin\Debug\net7.0\AdventureWorks.Models.deps.json
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\bin\Debug\net7.0\AdventureWorks.Models.dll
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\bin\Debug\net7.0\AdventureWorks.Models.pdb
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\AdventureWorks.Models.csproj.AssemblyReference.cache
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\AdventureWorks.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\AdventureWorks.Models.AssemblyInfoInputs.cache
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\AdventureWorks.Models.AssemblyInfo.cs
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\AdventureWorks.Models.csproj.CoreCompileInputs.cache
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\AdventureWorks.Models.dll
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\refint\AdventureWorks.Models.dll
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\AdventureWorks.Models.pdb
+C:\Users\Luis Sandoval\OneDrive\Escritorio\AZ204\Labs\AzureCosmosDB\AdventureWorks.Models\obj\Debug\net7.0\ref\AdventureWorks.Models.dll
